@@ -1,316 +1,244 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-	<meta charset="UTF-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
- 	<title>Sharlyn's Finalize Resume</title>
-	
-	<style>
-table
-{
-    width: 100%;
-    border-collapse: collapse;
-    margin-left: auto;
-    margin-right: auto;
-}
-table, th, td
-    {
-        border: 2px solid lightseagreen;
-        margin-bottom: 20px;
-    }
-th
-{
-    text-align: center;
-    font-size: 60px;
-    background-color: cadetblue;
-    background-image: linear-gradient(teal, lightseagreen);
-    color: white;  
-    font-family: Courier New;
-}
-th, td 
-{
-    padding: 10px;
-}
-tr:nth-child(even)
-{
-    background-color: lightcyan;
-}
-tr:nth-child(odd)
-{
-    background-color: activeborder;
-}
-td
-{
-    text-align: center;
-    font-size: 50px;
-    font-family: Courier New;
-    padding: 20px;
-}
+    <head>
+        <title>Online CV Styling</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="out">
+            <div class="in">
+                <div class="side-one"> 
+                 <a href="https://www.facebook.com/profile.php?id=100009537382596" target="_blank">
+                     <img src="PIC1.jpg" alt="Sharlyn A. Rancap"></a>
+                    
+                    <div class="contact">
+                        <h3>CONTACT</h3>
+                                <ul>
+			        <li>
+                                    <div class="wrap">
+                                    <span class="icon"><i class="fa fa-envelope" aria-hidden="true" ></i></span>
+                                    <span class="data"><a id="link" href="mailto:sharlyn.rancap@lspu.edu.ph">sharlyn.rancap@lspu.edu.ph</a></span>
+                                    </div>
+                                    </li>
+				<li>
+                                    <div class="wrap">
+                                    <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                    <span class="data"><a id="link" href="tel:09122149381">09122149381</a></span>
+                                    </div>
+                                 </li> 
+                                 <li>
+                                   <div class="wrap">
+                                    <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                    <span class="data"><a id="link" href="https://goo.gl/maps/ovZ7sFXLkBTyYXnNA">Brgy. Masinao, Sta. Maria, Laguna</a></span>
+                                   </div>
+                                     </li> 
+                                      </ul>
+                    </div>
+                        
+                        <div class="skills">
+                        <h3>SKILLS</h3>
 
-li
-{
-    font-size: 50px;
-    font-family: Courier New;
-    margin-left: 100px;
-    padding: 20px;
+                        <div class="bar">
+                            <label for="file">Critical Thinking</label>
+                            <progress id="file" value="69" max="100"> 69% </progress>
+                        </div>
+                        
+                        <br>
+                        <div class="bar">
+                            <label for="file">Technical</label>
+                            <progress id="file" value="80" max="100"> 80% </progress>
+                        </div>
 
-}
+                        <br>
+                        <div class="bar">
+                            <label for="file">Communication</label>
+                            <progress id="file" value="64" max="100"> 64% </progress>
+                        </div>
+                        
+                        <br>
+                        <div class="bar">
+                            <label for="file">Teamwork</label>
+                            <progress id="file" value="88" max="100"> 88% </progress>
+                        </div>
+                        
+                        <br>
+                        <div class="bar">
+                            <label for="file">Creativity</label>
+                            <progress id="file" value="60" max="100"> 60% </progress>
+                        </div>
+                         
+                    </div>
 
-h1
-{
-   text-align: justify;
-   font-size: 140px;
-   color: black;
-   font-family: Bookman Old Style;
-   margin-left: 50px;
-}
-		
-h2
-{
-   text-align: justify;
-   font-size: 80px;
-   color: black;
-   font-family: Lucida Fax;
-   margin-left: 50px;
-   
-}
-h3
-{
-   text-align: justify;
-   color: black;
-   font-size: 50px;
-   font-family: Courier New;
-   margin-left: 50px;
-   font-weight: normal;
-   text-indent: 2em;
-}
-h4
-{
-   text-align: justify;
-   color: black;
-   font-size: 50px;
-   font-family: Courier New;
-   margin-left: 50px;
-   font-style: italic;
-   font-weight: normal;
-   
-}
-p
-{
-   text-align: justify;
-   text-indent: 2.5em;
-   font-size: 50px;
-   color: black;
-   font-family: Courier New;
-   margin-left: 50px;
-   margin-right: 50px;
-   text-indent: hanging 50%;
-}
-		
-img
-{
-    width: 800px;
-    height: 800px;
-    float: right; 
-    padding: 10px;
-    border: 10px solid lightseagreen;
-   
-}
+                <div class="softwares">
+                        <h3>SOFTWARES</h3>
 
-hr
-{
-    width: auto;
-    padding: 5px;
-    background-color: ghostwhite;
-    border: 5px solid lightseagreen;
-}
+                        <div class="bar">
+                            <label for="file">AUTOCAD</label>
+                            <progress id="file" value="82" max="100"> 82% </progress>
+                        </div>
+                        
+                        <br>
+                        <div class="bar">
+                            <label for="file">Word Processing</label>
+                            <progress id="file" value="90" max="100"> 90% </progress>
+                        </div>
 
-.out
-{
-    width: 3000px;
-    height: auto;
-    border: 10px solid;
-    margin: 0px auto;
-    border-color: lightseagreen;
-    
-}
-.in
-{
-   width: 2880px;
-   height: auto;
-   margin-top: 60px;
-   margin-left: 60px;
-   margin-right: 60px;
-   margin-bottom: 60px;
-       
-}
-		
-</style>
-</head>
+                        <br>
+                        <div class="bar">
+                            <label for="file">Computer Programming</label>
+                            <progress id="file" value="69" max="100"> 69% </progress>
+                        </div>
+                        
+                        <br>
+                        <div class="bar">
+                            <label for="file">Presentation Tools</label>
+                            <progress id="file" value="88" max="100"> 88% </progress>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="hobbies">
+                        <h3>HOBBIES</h3>
+                        <div class="wrap">
+                        <span class="icon"><i class="fa fa-book" aria-hidden="true"></i></span>
+                        <span class="icon"><i class="fa fa-youtube-play" aria-hidden="true"></i></span>
+                        <span class="icon"><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                        <span class="icon"><i class="fa fa-bicycle" aria-hidden="true"></i></span>
+                        </div>
+                        </div>
+                </div>
+               
+                
+                <div class="side-two">
+                    <h2>SHARLYN AURIADA</h2>
+                    <h1>RANCAP</h1>
+                    <h4>BS INFORMATION TECHNOLOGY STUDENT</h4>
+                    <p>A second year BSIT student at Laguna State Polytechnic University Siniloan Campus aspiring to become a software engineer. 
+                        A goal-oriented student whom seeks to know more about computer programming.</p>
+                       
+                    
+                    <div id="info-objective">
+                        <h5>Objective</h5>
+                    </div>
+                         <p>Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</p>
+                    
+                    <div id="info-personal">
+                        <h5>Personal Information</h5> 
+                    </div>
+                          <p>An eager-learner that has an aptitude in discovering new ways/ideas to create a program regarding game developing. Refines skills to produce more quality and adaptive program, especially games. 
+                       Also experienced working individually and as a team, where becoming a leader is undergone which ensures the accountability of members and accomplishing the goals efficiently.</p> 
+                          
+                          <div class="content">
+                          <table>    
+                                <tr>
+                                <th rowspan="1">Name :</th>
+                                <td>Sharlyn A. Rancap</td>
+                                </tr>
 
-	<body>
-    
-    <div class="out">
-    <div class="in">
-           <div id="top">
-       <a href="https://www.facebook.com/profile.php?id=100009537382596" target="_blank">
-             <img src="PIC1.jpg" alt="Sharlyn A. Rancap">
-       </a>
-           
-        <h1>SHARLYN A. RANCAP</h1>
-        <h2>BS Information Technology Student</h2>
+                                <tr>
+                                <th rowspan="1">Address :</th>
+                                <td>Brgy. Masinao, Sta. Maria, Laguna</td>
+                                </tr>
 
-            <p>Brgy. Masinao</p>
-            <p>Santa Maria, Laguna</p>
-            <p><a href="tel:09122149381">09122149381</a></p>
-            <p><a href="mailto:sharlyn.rancap@lspu.edu.ph">sharlyn.rancap@lspu.edu.ph</a></p>
+                                <tr>
+                                <th rowspan="1">Age :</th>
+                                <td>20</td>
+                                </tr>
 
-	    </div>
+                                <tr>
+                                <th rowspan="1">Birth Date :</th>
+                                <td>February 28, 2001</td>
+                                </tr>
 
-            <hr>   
-    <div id="objective">     
-        <h2>Objective:</h2>
-        <p>Secure a responsible career opportunity to fully utilize my training and skills, while making a significant contribution to the success of the company.</p>    
-    </div>
-            <hr>
-            
-    <div id="profile">
-        <h2>Profile:</h2>
-        <p>A second year BSIT student at Laguna State Polytechnic University Siniloan Campus aspiring to become a software engineer. 
-            A goal-oriented student whom seeks to know more about computer programming. 
-            An eager-learner that has an aptitude in discovering new ways/ideas to create a program regarding game developing. Refines skills to produce more quality and adaptive program, especially games. Also experienced working individually and as a team, where becoming a leader is undergone which ensures the accountability of members and accomplishing the goals efficiently.</p> 
-    
-         <table>    
-         <tr>
-         <th rowspan="1">Name :</th>
-         <td>Sharlyn A. Rancap</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Address :</th>
-         <td>Brgy. Masinao, Sta. Maria, Laguna</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Age :</th>
-         <td>20</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Birth Date :</th>
-         <td>February 28, 2001</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Father's Name :</th>
-         <td>Salvador K. Rancap</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Occupation :</th>
-         <td>Farmer</td>
-         </tr>
-        
-         <tr>
-         <th rowspan="1">Mother's Name :</th>
-         <td>Ma. Wenelyn A. Rancap</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Occupation :</th>
-         <td>Domestic Helper</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Nationality :</th>
-         <td>Filipino</td>
-         </tr>
-         <tr>
-         <th rowspan="1">Religion :</th>
-         <td>Roman Catholic</td>
-         </tr>
-         
-         <tr>
-         <th rowspan="1">Status :</th>
-         <td>Single</td>
-         </tr>
-         
-        </table>
-    </div>
+                                <tr>
+                                <th rowspan="1">Father's Name :</th>
+                                <td>Salvador K. Rancap</td>
+                                </tr>
 
-     <hr>
+                                <tr>
+                                <th rowspan="1">Occupation :</th>
+                                <td>Farmer</td>
+                                </tr>
 
-     <div id="education">
-            <h2>Education:</h2>
+                                <tr>
+                                <th rowspan="1">Mother's Name :</th>
+                                <td>Ma. Wenelyn A. Rancap</td>
+                                </tr>
 
-        <table>
-        <tr>
-        <th>School</th>
-        <th>Address</th>
-        <th>Year Graduated</th>
-        </tr>
- 
-        <tr>
-        <td><a href="https://ph.locale.online/sta-maria-elementary-school-at-sta-maria-laguna-612503047.html">Santa Maria Elementary School</a></td>
-        <td>P. Burgos Street, Barangay II, Santa Maria, Laguna</td>
-        <td>2010 - 2014</td>
-        </tr>
- 
-        <tr>
-        <td><a href="https://www.edukasyon.ph/schools/fort-bonifacio-high-school">Fort Bonifacio High School</a></td>
-        <td>J.P. Rizal Extn., West Rembo, Makati City</td>
-        <td>2014 - 2018</td>
-        </tr>
- 
-        <tr>
-            <td><a href="https://vymaps.com/PH/Department-of-Education-Sta-Maria-Integrated-High-School-113522073407696/">Santa Maria Integrated High School</a></td>
-        <td>Nuestra Señora de los Angeles St., Brgy. IV-Poblacion, Sta. Maria, Laguna</td>
-        <td>2018 - 2020</td>
-        </tr>
+                                <tr>
+                                <th rowspan="1">Occupation :</th>
+                                <td>Domestic Helper</td>
+                                </tr>
 
-        <tr>
-            <td><a href="http://203.177.94.180:8052/lspu/sc/mygrades/"> Laguna State Polytechnic University</a></td>
-        <td>L. de Leon Street, Siniloan, 4019 Laguna</td>
-        <td>2020 - up to present</td>
-        </tr>
- 
-</table>
-</div>
+                                <tr>
+                                <th rowspan="1">Nationality :</th>
+                                <td>Filipino</td>
+                                </tr>
+                                <tr>
+                                <th rowspan="1">Religion :</th>
+                                <td>Roman Catholic</td>
+                                </tr>
 
- <hr>
-<div id="skills">
-    <h2>Skills:</h2>
-<ul>
-     <li>Communication Skills</li>
-     <li>Critical Thinking</li>
-     <li>Programming Languages (Java, C#, C++)</li>
-     <li>Technical Skills</li>
-  </ul>
-	    </div>
-	    
-<hr>
-	    
-<div id="referrence">
-     <h2>Profile Reference:</h2>
-     
-         <h3>Salvador K. Rancap</h3>
-         <h3>Brgy. Masinao, Santa Maria, Laguna</h3>
-         <h3><a href="tel:0956928414">0956928414</a></h3>
-     
+                                <tr>
+                                <th rowspan="1">Status :</th>
+                                <td>Single</td>
+                                </tr>
 
-        <h3>Ester V. Gutierrez</h3>
-	<h3>501 Mabolo St. Makati City, Manila</h3>
-	<h3><a href="tel:09184346971">09184346971</a></h3>
- 
- <hr>
-	
-<h4>Note:</h4>
-<h4>I herby clarify that the information above is true.</h4>
-
-           
-                	 </div>
-         	 </div>
-   	 </div>
+                            </table>
+                         
+                       <div id="info-education">
+                        <h5>Education</h5>
+                       </div>
+                          
+                        <div class="educ-info">
+                            <div class="year">
+                                <p>2008 - 2014</p>
+                            </div>
+                            
+                            <div class="school-name">
+                            <p><a href="https://ph.locale.online/sta-maria-elementary-school-at-sta-maria-laguna-612503047.html">Santa Maria Elementary School</a></p>
+                            <p>Brgy. II, Sta. Maria, Laguna</p>
+                            
+                           </div>
+                            
+                             <div class="year">
+                                <p>2014 - 2018</p>
+                            </div>
+                            
+                            <div class="school-name">
+                            <p><a href="https://www.edukasyon.ph/schools/fort-bonifacio-high-school">Fort Bonifacio High School</a></p>
+                            <p>J.P. Rizal Extn., West Rembo, Makati </p>
+                            
+                           </div>
+                             <div class="year">
+                                <p>2018 - 2020</p>
+                            </div>
+                            
+                            <div class="school-name">
+                            <p><a href="https://vymaps.com/PH/Department-of-Education-Sta-Maria-Integrated-High-School-113522073407696/">Santa Maria Integrated High School</a></p>
+                            <p>Brgy. IV-Pobl., Sta. Maria, Laguna</p>
+                            
+                           </div>
+                            
+                            <div class="year">
+                                <p>2021 up to present</p>
+                            </div>
+                            
+                            <div class="school-name">
+                            <p><a href="http://203.177.94.180:8052/lspu/sc/mygrades/"> Laguna State Polytechnic University</a></p>
+                            <p>L. de Leon St., Siniloan, 4019 Laguna</p>
+                            
+                           </div>
+                    
+                            
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
     </body>
 </html>
