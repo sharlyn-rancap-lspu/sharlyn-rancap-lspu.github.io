@@ -1,0 +1,307 @@
+ body
+            {
+               
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+            }
+
+            .in
+            {
+                width: 2880px;
+                height: auto;
+                background-color: whitesmoke;
+                margin-top: 60px;
+                margin-left: 60px;
+                margin-right: 60px;
+                margin-bottom: 60px;
+            }
+            .out
+            {
+                width: 3000px;
+                height: 5150px;
+                border: 10px solid;
+                margin: 0px auto;
+                border-color: #ADD8E6;
+            }
+            .side-one
+            {
+                width: 1000px;
+                height: 5000px;
+                background-color: #003152;
+                float: left;
+            }
+            .side-two
+            {
+                width: 1880px;
+                height: 5000px;
+                background-color: whitesmoke;
+                float: right;
+                text-indent: 2.5em;
+            }
+            img
+            {
+                width: 960px;
+                height: 950px;
+                padding: 10px;
+                margin-top: 100px;
+                border: 10px solid transparent;
+                border-color: white;
+
+            }
+            img:hover , .icon:hover , #file:hover
+            {
+                -ms-transform: scale(1.2); 
+                -webkit-transform: scale(1.2);
+                transform: scale(1.2);
+            } 
+            a:link
+            {
+                color: #0000FF;  
+            }
+            a:hover
+            {
+                color: #000080;
+
+            }
+            a:active
+            {
+                color: #F2D2BD;
+            }
+            .contact h3 , .skills h3, .softwares h3, .hobbies h3
+            {
+                font-size: 80px;
+                color: white;
+                font-family: sans-serif;
+                text-align: center;
+                font-weight: 600;
+                margin-bottom: 50px;
+                margin-top: 100px;
+            }
+            h2
+            {
+                font-size: 140px;
+                color: #003152;
+                font-family: sans-serif;
+                margin-top: 320px;
+                text-align: justify;
+                line-height: 0px;
+            }
+            h1
+            {
+                font-size: 320px;
+                color: black;
+                font-family: sans-serif;
+                text-align: justify;
+                line-height: 0px;
+            }
+            h4
+            {
+                font-size: 60px;
+                color: #003152;
+                font-family: sans-serif;
+                text-align: justify;
+                line-height: 10px;
+                
+            }
+            p
+            {
+               text-align: justify;  
+               font-size: 50px;
+               color: #000000;
+               font-family: Courier New;
+               margin-left: 50px;
+               margin-right: 50px;
+               text-indent: 200px ;
+            }
+            #info-personal, #info-objective ,  #info-education
+            {
+                width: max-content;
+                height: fit-content;  
+                border: 5px solid black;  
+                border-radius: 60px 60px 60px 60px;
+                background-color: #003152;
+                line-height: 0px;
+                margin-left: 50px;
+                padding-right: 50px;
+            }
+            h5
+            {
+                color: white;  
+                font-family: sans-serif;
+                text-transform: uppercase;
+                font-size: 60px;
+                font-stretch: expanded;
+            }
+            .content table
+            {
+                width: 100%;
+                border-collapse: collapse;
+                margin-left: 50px;
+                display: inline-grid;
+               
+                
+            }
+            .content table, th, td
+                {
+                    margin-bottom: 80px;
+                    
+                }
+            .content th
+            {
+                text-align: center;
+                font-size: 60px;
+                background-color: #000000;
+                background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+                color: white;  
+                font-family: Courier New;
+                text-align: justify;
+                text-indent: 1.5em;
+            }
+            .content th, td 
+            {
+                padding: 10px;
+            }
+            .content tr:nth-child(even)
+            {
+                background-color: #1a84b8;
+            }
+            .content tr:nth-child(odd)
+            {
+                background-color: activeborder;
+            }
+            .content td
+            {
+                text-align: justify;
+                font-size: 50px;
+                font-family: Courier New;
+                padding: 20px;
+                text-indent:  2em;
+            }
+            
+             .side-one .icon
+            {
+                font-size: 120px;
+                color: #003152;
+                
+            }
+            .side-one .data
+            {
+                color: white;
+                font-size: 60px;
+                margin-left: 50px;
+            }
+             .contact .wrap
+             {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                margin-bottom: 50px;
+                margin-left: 0;
+             }
+             .contact .wrap .icon{
+                width: 200px;
+                height: 200px;
+                background: white;
+                border-radius: 60px 60px 60px 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+             }
+
+                .contact .wrap .data{
+                width: calc(100% - 50px);
+                word-break: break-word;
+                color: #fff;
+             }
+             #link { color: white; }
+           
+             .educ-info
+             {
+                 width: 100%;
+                 display: grid;
+                 grid-template-columns: repeat(1, 1fr);
+                 margin-left: 50px;
+                 margin-top: 50px;
+ 
+             }
+             .year , .school-name
+             {
+                 display: inline;
+                 
+             }
+    
+            .year p
+            {
+                
+                width: 40%;
+                height: auto;
+                float: left;
+                text-align: justify;
+                text-indent: 0;
+                display: inline-grid;
+                font-weight: 900;
+                vertical-align: top;
+                line-height: 0px;
+                
+            }
+            .school-name p
+            {
+               width: 60%;
+               height: auto;
+               float: right;
+               text-align: justify;
+               text-indent: 0;
+               display: inline-grid;
+               line-height: 0px;
+           
+            }
+             .bar #file
+             { 
+                 display: flex;
+             }
+             label
+             {
+                 font-size: 60px;
+                 color: white;
+                 margin-left: 50px;
+                 font-weight: 600;
+             }
+             #file
+             {
+                 height : 140px;
+                 width : 90%;
+                 margin-left: 60px;
+                 margin-right: 60px;
+             }
+             .hobbies .icon
+             {
+                font-size: 120px;
+                color: #003152;
+               
+             }
+             .wrap
+             {
+                 margin-left: 40px;
+                
+             }
+             .hobbies .wrap .icon{
+                width: 200px;
+                height: 200px;
+                background: white;
+                border-radius: 60px 60px 60px 60px;
+                display: inline-grid;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+                margin-left: 15px;
+                
+             }
+           
+
+            
+            
+
+
