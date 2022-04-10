@@ -5,6 +5,7 @@
                 justify-content: center;
                 align-items: center;
                 min-height: 100vh;
+                zoom : 50%;
             }
 
             .in
@@ -218,46 +219,7 @@
              }
              #link { color: white; }
            
-             .educ-info
-             {
-                 width: 100%;
-                 display: grid;
-                 grid-template-columns: repeat(1, 1fr);
-                 margin-left: 50px;
-                 margin-top: 50px;
- 
-             }
-             .year , .school-name
-             {
-                 display: inline;
-                 
-             }
-    
-            .year p
-            {
-                
-                width: 40%;
-                height: auto;
-                float: left;
-                text-align: justify;
-                text-indent: 0;
-                display: inline-grid;
-                font-weight: 900;
-                vertical-align: top;
-                line-height: 0px;
-                
-            }
-            .school-name p
-            {
-               width: 60%;
-               height: auto;
-               float: right;
-               text-align: justify;
-               text-indent: 0;
-               display: inline-grid;
-               line-height: 0px;
-           
-            }
+
              .bar #file
              { 
                  display: flex;
@@ -298,6 +260,23 @@
                 margin-right: 15px;
                 margin-left: 15px;
                 
+             }
+             .educ-info table
+             {
+                 width: 100%;
+                 margin-top: 80px;
+             }
+             .tr1 , .td1 , .td2 , #th1 , #th2 , #th3 , #th4
+             {
+                 background-color: #eee;
+                 background-image: none;
+                 border-collapse: collapse;
+                 color: black;
+                 line-height: 100px; 
+             }
+             #th1 , #th2 , #th3 , #th4
+             {
+                 font-weight: 900;
              }
            
 
